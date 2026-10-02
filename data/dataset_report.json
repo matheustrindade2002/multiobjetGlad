@@ -1,0 +1,25 @@
+{
+  "dataset": "sst2",
+  "labeled": {
+    "n": 100,
+    "class_counts": {
+      "Negativo": 40,
+      "Positivo": 60
+    }
+  },
+  "unlabeled_pool": {
+    "n": 1500,
+    "class_counts_TRUE_LABEL_FOR_REFERENCE_ONLY": {
+      "Negativo": 660,
+      "Positivo": 840
+    }
+  },
+  "test_holdout": {
+    "n": 500,
+    "class_counts": {
+      "Negativo": 221,
+      "Positivo": 279
+    }
+  },
+  "note": "unlabeled_pool class_counts são o rótulo verdadeiro, mostrado aqui só para referência de quem lê o relatório -- o pipeline de seleção NUNCA usa esses rótulos."
+}

@@ -1,0 +1,9 @@
+method,bucket,precision,n
+MOO,Q1 (Periférico),0.6351351351351351,74
+MOO,Q2,0.8260869565217391,23
+MOO,Q3,0.6666666666666666,3
+MOO,Q4 (Central),,0
+Naive,Q1 (Periférico),,0
+Naive,Q2,,0
+Naive,Q3,1.0,3
+Naive,Q4 (Central),0.9072164948453608,97
